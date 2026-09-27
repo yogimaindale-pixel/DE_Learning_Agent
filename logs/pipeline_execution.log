@@ -1,0 +1,2 @@
+[INFO] 2026-09-27 20:20:00 - Pipeline p001 Ingestion Completed: 100 rows loaded.
+[INFO] 2026-09-27 20:20:01 - Pipeline p002 Watermark Advanced to 2026-09-27 20:20:00.

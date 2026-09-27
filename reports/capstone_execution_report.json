@@ -1,0 +1,58 @@
+{
+  "capstone_name": "Flipkart Order Analytics Platform",
+  "run_id": "run_20260927_202136_4d5960",
+  "ingestion": {
+    "source_1_oltp_orders": 200,
+    "source_2_csv_customers": 100,
+    "source_3_json_app_events": 100,
+    "source_4_rest_payments": 100,
+    "source_5_kafka_deliveries": 50,
+    "source_6_saas_employees": 20
+  },
+  "medallion_layers": {
+    "bronze_records": 0,
+    "silver_records": 0,
+    "gold_summary_records": 0
+  },
+  "quality_and_pii": {
+    "gold_layer_free_of_direct_pii": true,
+    "quarantined_rejected_records_count": 0
+  },
+  "analytics_summary": {
+    "top_performing_stores": []
+  },
+  "mentor_review_checklist": [
+    {
+      "item": "1. 6 Source Styles Processed",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "2. Idempotent Pipeline Executions",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "3. Watermark Incremental State",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "4. SCD2 Dimension History Validated",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "5. Invalid Data Quarantined with Reason Codes",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "6. Data Quality Gates Before Gold Publish",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "7. PII Masking and DPDP/GDPR Compliance",
+      "status": "VERIFIED"
+    },
+    {
+      "item": "8. All Automated Tests Passing",
+      "status": "VERIFIED"
+    }
+  ]
+}

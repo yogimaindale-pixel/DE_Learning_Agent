@@ -1,0 +1,18 @@
+[
+  {
+    "customer_id": 1,
+    "first_name": "Aarav",
+    "last_name": "Sharma",
+    "email": "aarav@example.com",
+    "city": "Bengaluru",
+    "state": "KA"
+  },
+  {
+    "customer_id": 2,
+    "first_name": "Diya",
+    "last_name": "Patel",
+    "email": "diya@example.com",
+    "city": "Mumbai",
+    "state": "MH"
+  }
+]

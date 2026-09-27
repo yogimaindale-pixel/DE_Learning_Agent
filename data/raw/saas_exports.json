@@ -1,0 +1,162 @@
+[
+  {
+    "employee_id": "EMP-001",
+    "full_name": "Employee 1",
+    "department": "Engineering",
+    "ssn": "999-00-0001",
+    "personal_email": "emp_1@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-002",
+    "full_name": "Employee 2",
+    "department": "Product",
+    "ssn": "999-00-0002",
+    "personal_email": "emp_2@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-003",
+    "full_name": "Employee 3",
+    "department": "Engineering",
+    "ssn": "999-00-0003",
+    "personal_email": "emp_3@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-004",
+    "full_name": "Employee 4",
+    "department": "Sales",
+    "ssn": "999-00-0004",
+    "personal_email": "emp_4@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-005",
+    "full_name": "Employee 5",
+    "department": "Sales",
+    "ssn": "999-00-0005",
+    "personal_email": "emp_5@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-006",
+    "full_name": "Employee 6",
+    "department": "Product",
+    "ssn": "999-00-0006",
+    "personal_email": "emp_6@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-007",
+    "full_name": "Employee 7",
+    "department": "Engineering",
+    "ssn": "999-00-0007",
+    "personal_email": "emp_7@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-008",
+    "full_name": "Employee 8",
+    "department": "Sales",
+    "ssn": "999-00-0008",
+    "personal_email": "emp_8@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-009",
+    "full_name": "Employee 9",
+    "department": "Data",
+    "ssn": "999-00-0009",
+    "personal_email": "emp_9@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-010",
+    "full_name": "Employee 10",
+    "department": "Product",
+    "ssn": "999-00-0010",
+    "personal_email": "emp_10@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-011",
+    "full_name": "Employee 11",
+    "department": "Data",
+    "ssn": "999-00-0011",
+    "personal_email": "emp_11@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-012",
+    "full_name": "Employee 12",
+    "department": "Product",
+    "ssn": "999-00-0012",
+    "personal_email": "emp_12@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-013",
+    "full_name": "Employee 13",
+    "department": "Engineering",
+    "ssn": "999-00-0013",
+    "personal_email": "emp_13@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-014",
+    "full_name": "Employee 14",
+    "department": "Engineering",
+    "ssn": "999-00-0014",
+    "personal_email": "emp_14@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-015",
+    "full_name": "Employee 15",
+    "department": "Data",
+    "ssn": "999-00-0015",
+    "personal_email": "emp_15@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-016",
+    "full_name": "Employee 16",
+    "department": "Engineering",
+    "ssn": "999-00-0016",
+    "personal_email": "emp_16@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-017",
+    "full_name": "Employee 17",
+    "department": "Engineering",
+    "ssn": "999-00-0017",
+    "personal_email": "emp_17@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-018",
+    "full_name": "Employee 18",
+    "department": "Engineering",
+    "ssn": "999-00-0018",
+    "personal_email": "emp_18@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-019",
+    "full_name": "Employee 19",
+    "department": "Data",
+    "ssn": "999-00-0019",
+    "personal_email": "emp_19@private.com",
+    "hire_date": "2023-01-15"
+  },
+  {
+    "employee_id": "EMP-020",
+    "full_name": "Employee 20",
+    "department": "Engineering",
+    "ssn": "999-00-0020",
+    "personal_email": "emp_20@private.com",
+    "hire_date": "2023-01-15"
+  }
+]

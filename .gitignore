@@ -7,13 +7,5 @@ __pycache__/
 env/
 venv/
 *.db
-logs/*.log
-reports/*.json
-data/raw/*
-data/staging/*
-data/curated/*
-data/serving/*
-data/quarantine/*
-!data/**/.gitkeep
 database/*.db
 !database/.gitkeep

@@ -1,0 +1,18 @@
+[
+  {
+    "raw_record": {
+      "customer_id": 99,
+      "email": "invalid_email_at_domain"
+    },
+    "error_code": "ERR_INVALID_EMAIL",
+    "rejected_at": "2026-09-27 12:00:00"
+  },
+  {
+    "raw_record": {
+      "order_id": -5,
+      "amount": -150.0
+    },
+    "error_code": "ERR_NEGATIVE_AMOUNT",
+    "rejected_at": "2026-09-27 12:05:00"
+  }
+]
