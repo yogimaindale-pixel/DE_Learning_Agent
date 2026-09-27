@@ -1,0 +1,50 @@
+course:
+  title: "Data Engineering Masterclass & Learning Agent"
+  version: "1.0.0"
+  seed: 42
+  weeks:
+    - number: 1
+      title: "ETL Fundamentals & Data Movement"
+      parts:
+        - number: 1
+          title: "ETL vs ELT & Ingestion Patterns"
+          topics: ["ETL vs ELT", "HDFC vs Meesho Scenario", "Ingestion Patterns", "REST Pagination & Rate Limits"]
+        - number: 2
+          title: "Storage Layers & File Formats"
+          topics: ["Medallion Architecture", "Watermark Pattern", "Streaming (Swiggy/CRED/Hotstar)", "SaaS Connectors"]
+    - number: 2
+      title: "Transformation Design Patterns"
+      parts:
+        - number: 1
+          title: "Dimensional Modeling & Analytics SQL"
+          topics: ["Star vs Snowflake", "Fact Table Types", "Join Strategies & Anti-patterns", "Window Functions", "Aggregations"]
+        - number: 2
+          title: "Slowly Changing Dimensions & Keys"
+          topics: ["SCD Type 1, 2, 3", "Surrogate Key Strategies", "MAX+1 Concurrency Hazard", "Lenskart Capstone"]
+    - number: 3
+      title: "Production ETL Design & Framework"
+      parts:
+        - number: 1
+          title: "Pipeline Patterns & Error Handling"
+          topics: ["Append, Merge/Upsert, Full Swap", "CDC (Log, Trigger, Diff)", "Dead Letter Queue (DLQ)", "Retries & Backoff"]
+        - number: 2
+          title: "Testing, Monitoring & SLA"
+          topics: ["4-Layer Testing", "Data Contracts with Pandera", "SLA Monitoring & Auditing", "Razorpay Pipeline Redesign"]
+    - number: 4
+      title: "Enterprise Pipeline Architecture"
+      parts:
+        - number: 1
+          title: "Orchestration & Metadata ETL"
+          topics: ["Apache Airflow Concepts", "Metadata Control Table", "Dynamic Task Mapping", "Cross-DAG Dependencies"]
+        - number: 2
+          title: "Data Quality, Privacy & Performance"
+          topics: ["DQ as Code", "PII Vault & DPDP/GDPR", "Query Optimization & Indexes", "Materialized Summary Views"]
+capstone:
+  title: "Flipkart Order Analytics Platform"
+  deliverables:
+    - "1. Architecture and Data Flow Document"
+    - "2. Metadata-Driven Ingestion Framework"
+    - "3. Bronze, Silver, Gold Datasets"
+    - "4. Automated DQ & PII Controls"
+    - "5. Analytics SQL & Performance Report"
+    - "6. Tests, Runbook & Review Checklist"

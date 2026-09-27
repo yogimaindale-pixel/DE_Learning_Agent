@@ -1,0 +1,30 @@
+contracts:
+  customers:
+    required_columns: ["customer_id", "first_name", "last_name", "email", "created_at"]
+    column_types:
+      customer_id: "int"
+      first_name: "string"
+      last_name: "string"
+      email: "email"
+    checks:
+      - name: "customer_id_not_null"
+        column: "customer_id"
+        rule: "not_null"
+      - name: "email_format"
+        column: "email"
+        rule: "regex"
+        pattern: "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+  orders:
+    required_columns: ["order_id", "customer_id", "order_date", "total_amount", "updated_at"]
+    column_types:
+      order_id: "int"
+      customer_id: "int"
+      total_amount: "float"
+    checks:
+      - name: "order_id_not_null"
+        column: "order_id"
+        rule: "not_null"
+      - name: "amount_non_negative"
+        column: "total_amount"
+        rule: "min"
+        value: 0.0

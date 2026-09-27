@@ -1,0 +1,55 @@
+pipelines:
+  - id: "p001"
+    name: "customers_ingestion"
+    source_type: "sqlite_oltp"
+    source_table: "raw_oltp_customers"
+    target_table: "bronze_customers"
+    ingestion_mode: "full_load"
+    primary_key: "customer_id"
+    watermark_column: null
+    pii_columns: ["email", "phone"]
+  - id: "p002"
+    name: "orders_ingestion"
+    source_type: "sqlite_oltp"
+    source_table: "raw_oltp_orders"
+    target_table: "bronze_orders"
+    ingestion_mode: "incremental"
+    primary_key: "order_id"
+    watermark_column: "updated_at"
+    pii_columns: []
+  - id: "p003"
+    name: "products_ingestion"
+    source_type: "csv"
+    source_file: "products.csv"
+    target_table: "bronze_products"
+    ingestion_mode: "full_load"
+    primary_key: "product_id"
+    watermark_column: null
+    pii_columns: []
+  - id: "p004"
+    name: "payments_ingestion"
+    source_type: "mock_api"
+    endpoint: "/api/v1/payments"
+    target_table: "bronze_payments"
+    ingestion_mode: "incremental"
+    primary_key: "payment_id"
+    watermark_column: "created_at"
+    pii_columns: ["card_last4"]
+  - id: "p005"
+    name: "deliveries_ingestion"
+    source_type: "kafka_ndjson"
+    source_file: "delivery_stream.ndjson"
+    target_table: "bronze_deliveries"
+    ingestion_mode: "streaming_microbatch"
+    primary_key: "delivery_id"
+    watermark_column: "timestamp"
+    pii_columns: ["delivery_address"]
+  - id: "p006"
+    name: "saas_employee_ingestion"
+    source_type: "json"
+    source_file: "saas_exports.json"
+    target_table: "bronze_saas_employees"
+    ingestion_mode: "full_swap"
+    primary_key: "employee_id"
+    watermark_column: null
+    pii_columns: ["ssn", "personal_email"]
